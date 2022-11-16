@@ -1,0 +1,5 @@
+def area_triangle():
+    a,b,c=eval(input("input the three sides of triangle:"))
+    s=(a+b+c)/2
+    return(((s-a)+(s-b)+(s-c))**0.5)
+area=area_triangle()
